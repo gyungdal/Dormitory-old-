@@ -36,7 +36,7 @@
     </UserControl.Resources>
     <Grid Background="White">
         <Border x:Name="shadowPanel" Width="1280" Height="720" Panel.ZIndex="0" Background="Black" Opacity="0"></Border>
-        <Border x:Name="modal" Width="560" Height="400" Panel.ZIndex="1" Opacity="1" Margin="0, 0, 0, 0" VerticalAlignment="Top" >
+        <Border x:Name="modal" Width="560" Height="400" Panel.ZIndex="0" Opacity="0" Margin="0, 0, 0, 0" VerticalAlignment="Top" >
             <StackPanel x:Name="regPanel" Background="White" Width="550" Height="400">
                 <TextBlock HorizontalAlignment="Center" FontSize="24" FontWeight="Bold" Margin="0, 50, 0, 0">회원가입</TextBlock>
                 <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Bold" Margin="0, 15">사용하실 아이디를 입력해주세요</TextBlock>
