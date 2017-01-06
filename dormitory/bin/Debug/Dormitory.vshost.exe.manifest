@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dormitory.exe" size="25088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dormitory.exe" size="36864">
       <assemblyIdentity name="Dormitory" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>NN5V+ZPfK0elI/z3heocWhC52tWTT2c1A1AWQATTu2Q=</dsig:DigestValue>
+        <dsig:DigestValue>aMpFE/UTQS4Y1wYYeUjtKB6K3r4XKfRn0CBY4AEzb/k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

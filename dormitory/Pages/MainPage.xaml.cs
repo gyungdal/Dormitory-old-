@@ -25,9 +25,14 @@ namespace Dormitory.Pages
         public MainPage()
         {
             InitializeComponent();
+            setPanelSize();
             PageSwitcher.SetTitle(this.GetType().Name);
         }
 
+        private void setPanelSize()
+        {
+            PanelMargin.Width = this.Width;
+        }
         private void MenuHandler(object sender, MouseButtonEventArgs e)
         {
             Label item = sender as Label;
